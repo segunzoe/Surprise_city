@@ -1392,14 +1392,20 @@ section {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1000px;
-  
-}
-
-@media only screen and (max-width: 768px) {
+media only screen and (max-width: 800px) {
   .container {
     max-width: 1000px;
-    
+    margin: 0 auto;
+   
   }
 }
+@media only screen and (max-width: 800px) {
+  body{
+    overflow-x: hidden;
+   
+    padding: 0;
+    margin: 0 ;
+  }
+}
+
+
