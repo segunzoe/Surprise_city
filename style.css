@@ -1399,7 +1399,10 @@ section {
 
         padding: 20px 30px 20px 20px;
         
-   }
+   } .navbar {
+    margin-right: 50px;
+  }
+
 
 
 }
